@@ -1,0 +1,15 @@
+--note on saving schematics, have to be able to //paste while standing on the ground and have the build start at
+--the ground level as if a turtle built it
+shell.run("pastebin get 8Th5VpE5 setup")
+shell.run("pastebin get DwSUZgph multisetup")
+shell.run("setup dl")
+ 
+ 
+shell.run("clr")
+print("Instructions:")
+ 
+print("\"market\"-find schematics")
+print("\"blueprint [schematic] tsp\"-get file ready")
+ 
+print("\"multisetup [blueprint[1]]\"-multiturtle")
+print("\"setup [blueprint]\"-singleturtle")
